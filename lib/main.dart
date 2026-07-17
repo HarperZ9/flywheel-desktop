@@ -78,7 +78,7 @@ class _FlywheelAppState extends State<FlywheelApp> {
   Widget build(BuildContext context) {
     final s = widget.settings;
     return MaterialApp(
-      title: 'Flywheel',
+      title: 'Flywheel · Zentropy Labs',
       debugShowCheckedModeBanner: false,
       theme: flywheelLightTheme(
           textFamily: s.textFamily,
