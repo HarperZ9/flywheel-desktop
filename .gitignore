@@ -14,3 +14,10 @@ build/
 
 # Session handoff notes (local only, never shipped)
 HANDOFF-*.md
+
+# --- Python release tooling (release_tests/, scripts/) ---
+# Bytecode caches embed the absolute co_filename of the machine that built
+# them, so they leak local worktree paths into a public repository.
+__pycache__/
+*.py[cod]
+.pytest_cache/

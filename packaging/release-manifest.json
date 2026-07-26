@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "manifest_state": "engine-identity-pending",
+  "product": {
+    "name": "Flywheel",
+    "version": "1.0.0",
+    "desktop_build_version": "1.0.0+1",
+    "publisher": "Zentropy Labs",
+    "desktop_executable": "FlywheelDesktop.exe"
+  },
+  "gateway": {
+    "protocol": "flywheel.gateway/1"
+  },
+  "engine_layout": {
+    "executable": "engine/bin/flywheel.exe",
+    "runtime_root": "engine/runtime"
+  },
+  "installer": {
+    "app_id": "{DC641451-6AC1-4CCD-B6C4-556995B389CD}"
+  },
+  "channel": "internal-rc.1",
+  "release_state": {
+    "signature": "unsigned",
+    "redistribution": "blocked-license-unset"
+  },
+  "artifacts": {
+    "portable": "Flywheel-1.0.0-rc.1-internal-unsigned-nonredistributable-win64.zip",
+    "installer": "Flywheel-1.0.0-rc.1-internal-unsigned-nonredistributable-Setup.exe"
+  },
+  "payload_policy": {
+    "default": "reject",
+    "path_mode": "literal-posix",
+    "permitted_roots": [
+      {"path": "FlywheelDesktop.exe", "kind": "file"},
+      {"path": "flutter_windows.dll", "kind": "file"},
+      {"path": "data", "kind": "tree"},
+      {"path": "engine/bin/flywheel.exe", "kind": "file"},
+      {"path": "engine/runtime", "kind": "tree"},
+      {"path": "release-manifest.json", "kind": "file"}
+    ],
+    "forbidden": {
+      "name_prefixes": [".env", ".git", "id_", "ready"],
+      "name_fragments": ["credential", "private-key", "private_key", "signing-key", "signing_key", "keystore", "secret", "cache", ".log", "model", "weight", "adapter", "checkpoint", "train", "dataset", "corpus", "grpo", "readiness", "research"],
+      "names": ["id_dsa", "id_ecdsa", "id_ed25519", "id_rsa"],
+      "segments": [".git", ".cache", ".pytest_cache", "__pycache__", "cache", "caches", "logs", "key", "keys", "private_key", "private_keys", "secret", "secrets", "credential", "credentials", "model", "models", "weight", "weights", "checkpoint", "checkpoints", "dataset", "datasets", "train", "training", "grpo", "research", "readiness"],
+      "suffixes": [".key", ".pem", ".ppk", ".pfx", ".p12", ".jks", ".keystore", ".ckpt", ".pt", ".pth", ".safetensors", ".gguf", ".onnx", ".tflite", ".h5", ".pb", ".mlmodel", ".joblib", ".pkl", ".jsonl", ".parquet", ".arrow", ".tfrecord", ".log", ".out"],
+      "subpaths": ["tasks/grpo-proof"]
+    }
+  },
+  "toolchain": {
+    "python": "3.12.10",
+    "pyinstaller": "6.21.0",
+    "flutter": "3.44.6",
+    "dart": "3.12.2",
+    "flutter_framework_commit": "ee80f08bbf97172ec030b8751ceab557177a34a6",
+    "inno_setup": "6.7.3",
+    "inno_setup_iscc_sha256": "0a8757031b33777e4c9cbffee40f11a5062b36d25cbe144c1db73b6102b80ad7"
+  },
+  "engine_identity": {
+    "state": "pending",
+    "source_commit": null,
+    "executable_sha256": null,
+    "runtime_manifest_sha256": null,
+    "builder": null
+  }
+}

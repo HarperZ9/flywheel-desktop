@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "paths": [
+    "FlywheelDesktop.exe",
+    "flutter_windows.dll",
+    "data/flutter_assets/AssetManifest.bin",
+    "data/flutter_assets/assets/fonts/hanken-grotesk-regular.ttf",
+    "engine/bin/flywheel.exe",
+    "engine/runtime/site/index.html",
+    "release-manifest.json"
+  ]
+}
