@@ -15,6 +15,7 @@ import 'package:http/http.dart' as http;
 
 import '../models/gateway_models.dart';
 import '../models/workflow_models.dart';
+import 'auth_client.dart';
 
 part 'gateway_streams.dart';
 
@@ -22,8 +23,11 @@ class GatewayClient {
   final String baseUrl;
   final http.Client _http;
 
+  // An explicitly supplied client is used as given, which is what the widget
+  // tests rely on. The default wraps a real client so the gateway token rides
+  // on every request without 42 call sites needing to know about it.
   GatewayClient({this.baseUrl = 'http://127.0.0.1:8799', http.Client? httpClient})
-      : _http = httpClient ?? http.Client();
+      : _http = httpClient ?? AuthClient(http.Client(), readGatewayToken());
 
   /// True if the gateway is reachable (the gateway serves /api/world on GET).
   Future<bool> isAlive({Duration timeout = const Duration(seconds: 2)}) async {
