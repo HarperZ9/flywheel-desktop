@@ -1,4 +1,4 @@
-# GitHub profile analysis — HarperZ9 / ZentropyLabs
+# GitHub profile analysis -- HarperZ9 / ZentropyLabs
 
 > Census taken 2026-07-30 from the live account listing. Counts are exact at
 > that timestamp. Companion files: 02-vertical-value.md, 03-target-audiences.md,
@@ -16,28 +16,28 @@
 
 ## The five-tier taxonomy (per the site's own catalog)
 
-### Tier 1 — the fourteen public engines
+### Tier 1 -- the fourteen public engines
 flywheel (route + verify; desktop client v0.2.2), telos (the shared workbench,
 live v0.2.0), index (2.9.0 beta, PyPI `index-graph`), gather (1.6.1 shipped,
 PyPI `gather-engine`), forum (1.13.0 shipped, PyPI `forum-engine`), crucible
 (1.2.0, PyPI `crucible-bench`), emet (1.1.0, PyPI `emet`, four independent
-language implementations), buildlang (v1.2.0, 1,521 passing tests), learn
+language implementations), buildlang (v1.2.0, 1,605 passing tests), learn
 (v1.6.0), relay, plexus, mneme, studio-engine, build-color (1.0.2 beta,
 PyPI `build-color`).
 
-Six confirmed PyPI packages — the site publicly corrected an earlier "19"
+Six confirmed PyPI packages -- the site publicly corrected an earlier "19"
 over-count to this honest figure.
 
-### Tier 2 — the private line ("public where safe")
-- **orca** (Runtime) — security-engagement workbench, v1.0.0, 361 tests;
+### Tier 2 -- the private line ("public where safe")
+- **orca** (Runtime) -- security-engagement workbench, v1.0.0, 361 tests;
   metadata-only, cannot reach the target it assesses. The most revenue-shaped
   private asset.
-- **aleph** (Checkpoint) — release/supply-chain coordination across docs,
+- **aleph** (Checkpoint) -- release/supply-chain coordination across docs,
   contracts, MCP declarations, CI, receipts.
-- **kun** (Vault) — path-only receipts, rotation discipline, value-free.
-- **behavior-transform.io** (Boundary) — public repo; mode-aware
+- **kun** (Vault) -- path-only receipts, rotation discipline, value-free.
+- **behavior-transform.io** (Boundary) -- public repo; mode-aware
   read/write/exec/fetch/input receipts; raw content stays in local adapters.
-- **seed** (Lab) and **sofer** (Ledger) — private/proprietary; honestly labeled
+- **seed** (Lab) and **sofer** (Ledger) -- private/proprietary; honestly labeled
   as needing a public-safe split (credential-pattern corpora inside).
 - Adjacent private security cluster: offensive-platform, red-team-platform,
   adversarial, protected-corridors, protected-research, legal-intl,
@@ -46,23 +46,23 @@ over-count to this honest figure.
   ai-safety-prefire, ai-safety-guardrail-manager, unified-engine, aurora,
   apps, flywheel-host.
 
-### Tier 3 — substrates
-proof-surface (652 tests, zero deps — the shared proof-packet foundation),
+### Tier 3 -- substrates
+proof-surface (652 tests, zero deps -- the shared proof-packet foundation),
 coherence-membrane, accountable-surface, accountable-engine (Forming; "the
 inward half is owed"), provenance-sensorium, reconcile, raw (D3D11 mid-frame
 graphics proxy), witnessing-spine (five regulated-sector adversarial
 steelmans, DOI 10.5281/zenodo.20778927), senses-and-sensibility,
 faithful-transpile, coherence and kernels lines (signal-kernels,
-anomaly-kernels — C++23 header-only).
+anomaly-kernels -- C++23 header-only).
 
-### Tier 4 — bricks (release + agent toolkit)
+### Tier 4 -- bricks (release + agent toolkit)
 secret-redact-io, release-surface-scanner, public-surface-sweeper,
 repo-proof-index, proof-surface-report, model-provenance-validator,
 gpu-trace-validator, agent-audit, agent-routing-kit, agent-hook-pack,
 context-curator-lite, workflow-harness-lite, consulting-template-kit,
 calibrate-pro, wol-pi.
 
-### Tier 5 — research + receipts-in-the-wild
+### Tier 5 -- research + receipts-in-the-wild
 Receipt repos aimed at other ecosystems: crewai-kickoff-replay-receipt,
 vllm-ci-forum-receipt. Research surface lives on the site: 3 theses,
 10 experiment packets, 6 DOI'd preprints (arXiv endorsement-pending),
@@ -91,7 +91,7 @@ scorekeeper), MCP ecosystem curation (a dozen awesome-mcp-* lists, registry,
 python-sdk), core Python tooling (numpy, poetry, setuptools, isort, tomlkit,
 typeguard, grimp, datasette, llm), and agent-security reading
 (system_prompts_leaks, awesome-ai-agents-security). Read as a map: the
-account tracks exactly the frontier its products verify — agents, evals,
+account tracks exactly the frontier its products verify -- agents, evals,
 MCP, and the supply chain under them.
 
 ## Engine-state cross-check (dev vs public)
@@ -111,8 +111,8 @@ DRIFT); 85 + 243 passing tests on that slice; CI across three OSes.
 
 ## Reading the whole profile in one line
 
-One person, one discipline — perceive, transform under a named criterion,
-carry a re-checkable receipt — applied across model infrastructure, compilers,
+One person, one discipline -- perceive, transform under a named criterion,
+carry a re-checkable receipt -- applied across model infrastructure, compilers,
 color science, graphics, security practice, and research, with the honesty
 mechanics (published nulls, self-caught over-counts, maturity tiers) intact
 everywhere. The portfolio's weakness is not depth or range; it is that no

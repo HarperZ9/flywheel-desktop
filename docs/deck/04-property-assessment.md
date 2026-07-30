@@ -1,4 +1,4 @@
-# Web-property assessment — the two domains
+# Web-property assessment -- the two domains
 
 > "Both domains" per the owner's direction: (1) the harperz9.github.io
 > portfolio/Project Telos site, and (2) the Flywheel product surface
@@ -6,7 +6,7 @@
 > Assessed 2026-07-30 from full clones. No registered custom domain exists
 > today; behavior-transform.io appears only as a GitHub repository name.
 
-## Property 1 — harperz9.github.io (Project Telos site)
+## Property 1 -- harperz9.github.io (Project Telos site)
 
 ### What it is
 72 sitemap pages (87 HTML files), actively maintained (PR #89 merged
@@ -33,7 +33,7 @@ private telos-v2 source with a verification gate.
   brand identity split three ways (Zain Dana Harper / Project Telos /
   ZentropyLabs, with a ZentropyLabs-ai GitHub org besides).
 - **Zero analytics** (grep-verified: no GA/GTM/Plausible/Umami/Fathom/Clarity).
-  The site is unmeasurable — by its own thesis, it cannot make a measured
+  The site is unmeasurable -- by its own thesis, it cannot make a measured
   claim about itself.
 - **No conversion instrument.** No form, calendar, newsletter, or pricing;
   every CTA terminates at a gmail address. The consulting CTA has no landing
@@ -42,7 +42,7 @@ private telos-v2 source with a verification gate.
   count rather than a value proposition.
 - Residue: 5 redirect stubs + legacy directories from the Quanta→Build rename;
   a stale INDEX.json pointing at a dead branch; publications.html was
-  nav-orphaned per the fix list (now in the sitemap — verify nav before citing).
+  nav-orphaned per the fix list (now in the sitemap -- verify nav before citing).
 - The strongest traction number (Elder ENB: 900k+ downloads, 150k+ unique
   users) is buried in a cover letter.
 
@@ -50,9 +50,9 @@ private telos-v2 source with a verification gate.
 A world-class credibility engine with the commercial layer deliberately (or
 by omission) absent. Its value today is evidentiary: it wins the "are these
 people real" check instantly. Its unrealized value is everything after that
-check — measurement, capture, and a priced next step.
+check -- measurement, capture, and a priced next step.
 
-## Property 2 — the Flywheel product surface
+## Property 2 -- the Flywheel product surface
 
 ### What it is
 The public `flywheel` engine repo, the `flywheel-desktop` client (v0.2.2,
@@ -67,15 +67,15 @@ page.
   with a gate that refuses mislabeled artifacts; the unsigned-binary caveat is
   published with the hash as the stated substitute.
 - OpenAI-compatible gateway (point an existing client at it; receipts arrive
-  under the same API) — the lowest-friction adoption path in the system.
+  under the same API) -- the lowest-friction adoption path in the system.
 - Desktop client codebase enforces its own canon in CI (design tokens, verdict
   mapping, and version truth are unit-tested; files under 300 lines).
 
 ### Gaps (DRIFT)
 - **The public engine lags the dev engine by ~9×**: 11 API routes and v0.1.0
-  in the public repo vs. 96 routes in the local-model dev checkout. The
+  in the public repo vs. 102 routes in the local-model dev checkout. The
   desktop client's README describes surfaces (receipts, plugins, memory,
-  studio, attest) that the public engine repo does not yet expose — an
+  studio, attest) that the public engine repo does not yet expose -- an
   integrity risk for exactly the audience this portfolio courts.
 - Distribution is GitHub-releases-only; no product page exists outside the
   portfolio site; Windows-only installer today (macOS/Linux runners exist in
@@ -92,7 +92,7 @@ fold.
 ## Adjacent properties on the shelf
 
 Private repos `harpercompliance-site` and `sendmyletter-site` (both touched
-2026-07-15) indicate property experiments beyond the portfolio — the compliance
+2026-07-15) indicate property experiments beyond the portfolio -- the compliance
 name in particular aligns with vertical B and the owner's GRC documentation
 history. Not assessed (private, out of session scope); noted as existing
 assets when a domain strategy is chosen.
